@@ -17,7 +17,7 @@ const Contact = () => { // Renamed to match the export
     };
 
     try {
-      const response = await fetch("https://formsubmit.co/ajax/srm6895449@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/np@gmail.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
