@@ -246,4 +246,56 @@ color: rgb(255, 255, 255);
 #dark .copyRights{
   color: #ffffff;
 }
+#light form {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
 
+#light form input,
+#light form textarea,
+#light form select {
+  background-color: #f9f9f9;
+  color: #000000;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#light form input::placeholder,
+#light form textarea::placeholder {
+  color: #666666;
+}
+
+#light .form-text {
+  color: #000000;
+}
+
+#light form input:focus,
+#light form textarea:focus,
+#light form select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+ #light form button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;}
+
+  .contact-form {
+    width: 100%;
+
+  }
+
+  @media (min-width: 768px) {
+    .contact-form {
+      width: 200%;
+    }
+  }
