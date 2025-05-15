@@ -1,10 +1,12 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-scroll";
 import logo from "../assets/logo.png";
-import { BsMoonStarsFill } from "react-icons/bs";
-import { IoSunny } from "react-icons/io5";
+// import { BsMoonStarsFill } from "react-icons/bs";
+// import { IoSunny } from "react-icons/io5";
 import { Themecontext } from "../App";
 import { useContext } from "react";
+// import Calc from "../assets/calc.png";
+// import { FcCalculator } from "react-icons/fc";
 
 
 const NavBar = () => {
@@ -138,7 +140,29 @@ const NavBar = () => {
                 </Link>
               </li>
             </ul>
+             {/* <button
+                       
+                       className="btn "
+                       style={{
+                         backgroundColor: theme === "light" ? "#ffd700" : "#333",
+                         color: theme === "light" ? "#000" : "#fff",
+                         borderRadius: "45%",
+                        //  width: "50px",
+                        //  height: "50px",
+                         display: "flex",
+                         justifyContent: "center",
+                         alignItems: "center",
+                         border: "none",
+                       }}
+                     >
+                       {theme === "light" ? (
+                         <FcCalculator style={{ fontSize: 42 }} />
+                       ) : (
+                         <FcCalculator style={{ fontSize: 42 }} />
+                       )}
+                     </button> */}
           </div>
+         
         </div>
       </nav>
     </>

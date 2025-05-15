@@ -3,18 +3,24 @@ import Fire from "../assets/projects/fire main.jpeg";
 import imageProcessing from "../assets/projects/Image Processing Based Fire Detection block.png";
 import iotIrrigation from "../assets/projects/iot irrigation.png";
 import iotIrrigationMain from "../assets/projects/iot irrigation.jpg";
+import { FcCalculator } from "react-icons/fc";
+import { FiArrowUpRight } from "react-icons/fi";
+import weather from "../assets/myweather.png"
+import { TiWeatherPartlySunny } from "react-icons/ti";
+
 
 const Projects = () => {
   return (
     <>
       <div className="container">
-        <div id="projects">
-          <h1 className="display-5 fw-bold lh-1 m-5 text-center">
-            Projects
-          </h1>
+        <div id="projects" className="pb-5">
+          <h1 className="display-4 fw-bold lh-1 mt-5 text-center">Projects</h1>
 
-          {/* Project Section */}
-          <div className="container py-5">
+          {/*Hardware Project Section */}
+          <div className="container pt-5 ">
+            <h1 className="display-5 fw-bold lh-1 mb-5 text-center">
+              Hardware Projects
+            </h1>
             <div className="row gy-4">
               {/* Project 1 */}
               <div className="col-md-6 d-flex justify-content-center">
@@ -49,15 +55,8 @@ const Projects = () => {
 
               {/* Project 2 */}
               <div className="col-md-6 d-flex justify-content-center">
-                <div
-                  className="card shadow  mb-4"
-                  style={{ width: "25rem" }}
-                >
-                  <img
-                    src={iotIrrigationMain}
-                    alt="loading"
-                    
-                  />
+                <div className="card shadow  mb-4" style={{ width: "25rem" }}>
+                  <img src={iotIrrigationMain} alt="loading" />
                   <div className="card-body text-center">
                     <h5 className="card-title">
                       <b>IoT-Based Smart Irrigation System</b>
@@ -80,6 +79,67 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+          {/*software Project Section */}
+      
+
+<div className="container pt-5">
+  <h2 className="display-5 fw-bold lh-1 mb-5 text-center">Software Projects</h2>
+  <div className="row justify-content-evenly gx-4 gy-4">
+
+    {/* Weather-Snap */}
+    <div className="col-md-3 col-sm-6">
+      <div
+        className="card skill shadow-sm text-center d-flex flex-column align-items-center p-3"
+        style={{ width: "100%", height: "250px" }}
+      >
+        <div style={{ fontSize: "70px" }} className="text-primary mb-3">
+          <TiWeatherPartlySunny />
+        </div>
+        <h5 className="mb-1">Weather-Snap</h5>
+        <p className="text small text">Live weather info with a modern UI.</p>
+        <div >
+          <a
+            href="https://rajamanikandan-weather-app.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          className="btn btn-primary btn-sm"
+          >
+            Click Me <FiArrowUpRight />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {/* CalcMate */}
+    <div className="col-md-3 col-sm-6">
+      <div
+        className="card skill shadow-sm text-center d-flex flex-column align-items-center p-3"
+        style={{ width: "100%", height: "250px" }}
+      >
+        <div style={{ fontSize: "70px" }} className="mb-3">
+          <FcCalculator />
+        </div>
+        <h5 className="mb-1">CalcMate</h5>
+        <p className="text small text">A simple calculator built with React.</p>
+        <div>
+          <a
+            href="https://rajamanikandan-calc.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary btn-sm"
+            
+          >
+            Click Me <FiArrowUpRight />
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
         </div>
         <hr />
       </div>
