@@ -91,7 +91,7 @@ const Projects = () => {
     <div className="col-md-3 col-sm-6">
       <div
         className="card skill shadow-sm text-center d-flex flex-column align-items-center p-3"
-        style={{ width: "100%", height: "250px" }}
+        style={{ width: "100%", height: "270px" }}
       >
         <div style={{ fontSize: "70px" }} className="text-primary mb-3">
           <TiWeatherPartlySunny />
@@ -115,7 +115,7 @@ const Projects = () => {
     <div className="col-md-3 col-sm-6">
       <div
         className="card skill shadow-sm text-center d-flex flex-column align-items-center p-3"
-        style={{ width: "100%", height: "250px" }}
+        style={{ width: "100%", height: "270px" }}
       >
         <div style={{ fontSize: "70px" }} className="mb-3">
           <FcCalculator />
